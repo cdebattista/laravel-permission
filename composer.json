@@ -1,0 +1,60 @@
+{
+    "name": "cdebattista/laravel-permission",
+    "description": "Groups & Permissions for Laravel 8",
+    "keywords": [
+        "laravel",
+        "inertia",
+        "jetstream",
+        "group",
+        "groups",
+        "permission",
+        "permissions",
+        "roles",
+        "security"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "De Battista Clint",
+            "email": "cdebattista@devsapps.com"
+        }
+    ],
+    "require": {
+        "php": "^7.3",
+        "doctrine/dbal": "^2.11",
+        "illuminate/support": "^8.0"
+    },
+    "require-dev": {
+        "inertiajs/inertia-laravel": "^0.2.15",
+        "laravel/jetstream": "^1.4",
+        "orchestra/testbench": "^6.2",
+        "phpunit/phpunit": "^9.4",
+        "tightenco/ziggy": "^0.9.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Cdebattista\\LaravelPermission\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Cdebattista\\LaravelPermission\\Tests\\": "tests/",
+            "App\\": "stubs/app/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        },
+        "laravel": {
+            "providers": [
+                "Cdebattista\\LaravelPermission\\LaravelPermissionServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

@@ -1,0 +1,6 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+.multiselect .multiselect__content-wrapper{
+    position: relative;
+}
