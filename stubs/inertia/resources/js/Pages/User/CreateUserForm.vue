@@ -73,7 +73,7 @@
     import JetInputError from './../../Jetstream/InputError'
     import JetLabel from './../../Jetstream/Label'
     import Multiselect from 'vue-multiselect'
-    import('vue-multiselect/dist/vue-multiselect.min.css');
+    require('vue-multiselect/dist/vue-multiselect.min.css');
 
     export default {
         components: {

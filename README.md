@@ -14,6 +14,11 @@
         <img src="https://img.shields.io/packagist/l/cdebattista/laravel-permission" alt="License">
     </a>
 </p>
+
+<img src="https://github.com/cdebattista/laravel-permission/raw/master/.github/img/permissions.png">
+<img src="https://github.com/cdebattista/laravel-permission/raw/master/.github/img/group.png">
+<img src="https://github.com/cdebattista/laravel-permission/raw/master/.github/img/user.png">
+
 :star: Star on GitHub — it helps!
 
 ## Table of content
