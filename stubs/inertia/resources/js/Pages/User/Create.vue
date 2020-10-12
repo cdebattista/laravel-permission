@@ -18,7 +18,6 @@
     import AppLayout from './../../Layouts/AppLayout'
     import CreateUserForm from "./CreateUserForm";
     import JetSectionBorder from './../../Jetstream/SectionBorder'
-    import('vue-multiselect/dist/vue-multiselect.min.css');
 
     export default {
         props: ['permissions', 'groups'],

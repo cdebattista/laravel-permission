@@ -1,6 +1,6 @@
 {
     "name": "cdebattista/laravel-permission",
-    "description": "Groups & Permissions for Laravel 8",
+    "description": "Groups & Permissions for Laravel Jetstream",
     "keywords": [
         "laravel",
         "inertia",

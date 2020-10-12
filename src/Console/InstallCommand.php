@@ -81,6 +81,8 @@ class InstallCommand extends Command{
         $this->callSilent('vendor:publish', ['--tag' => 'permission-config', '--force' => true]);
         $this->callSilent('vendor:publish', ['--tag' => 'permission-migrations', '--force' => true]);
 
+        Artisan::call('migrate');
+
         // Install Stack...
         if ($this->argument('stack') === 'livewire') {
             // todo
@@ -119,10 +121,11 @@ class InstallCommand extends Command{
 
             $this->updateNodePackages(function($packages){
                 return [
-                           'vue-multiselect' => '^2.1.6',
-                           'webpack-shell-plugin' => '^0.5.0',
-                           'laravel-permission' => '^1.0.2'
-                       ] + $packages;
+                   'vue-multiselect' => '^2.1.6',
+                   'webpack-shell-plugin' => '^0.5.0',
+                   'laravel-permission' => '^1.0.2',
+                   'popper.js' => '^1.15.0'
+               ] + $packages;
             });
 
             // Generate routes
@@ -312,6 +315,7 @@ class InstallCommand extends Command{
                 'user_groups' => []
             ]);
             $this->info('Admin user created !');
+            $this->info('Email : admin@admin');
             $this->info('Password : ' . $password);
         }else{
             $this->alert('Note : you need to have administrator permission to access to users, groups and permissions pages !');

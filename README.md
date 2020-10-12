@@ -36,6 +36,10 @@
 #### Inertia
 For now, support only Jetstream with Inertia.
 
+>In local installation and using `php artisan serve`, 
+>change `APP_URL=http://127.0.0.1:8000` in .env. Otherwise, you will get an error:
+>`Access to XMLHttpRequest at 'http://localhost/users' from origin 'http://127.0.0.1:8000`
+
 `php artisan permission:install inertia`
 
 `npm install && npm run dev`
