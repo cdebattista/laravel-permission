@@ -32,8 +32,5 @@ jobs:
 
       - name: Install dependencies
         run: |
-           composer require "illuminate/contracts=${{ matrix.laravel }}" --no-update
+           composer require "illuminate/support=${{ matrix.laravel }}" "doctrine/dbal": "^2.11" --no-update
            composer update --prefer-dist --no-interaction --no-progress
-
-      - name: Execute tests
-        run: vendor/bin/phpunit --verbose
