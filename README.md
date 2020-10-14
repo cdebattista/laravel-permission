@@ -5,7 +5,7 @@
         <img src="https://github.com/cdebattista/laravel-permission/workflows/tests/badge.svg" alt="Build Status">
     </a>
     <a href="https://packagist.org/packages/cdebattista/laravel-permission">
-        <img src="https://img.shields.io/cdebattista/dt/laravel-permission" alt="Total Downloads">
+        <img src="https://img.shields.io/packagist/dt/cdebattista/laravel-permission" alt="Total Downloads">
     </a>
     <a href="https://packagist.org/packages/cdebattista/laravel-permission">
         <img src="https://img.shields.io/packagist/v/cdebattista/laravel-permission" alt="Latest Stable Version">
