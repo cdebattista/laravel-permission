@@ -13,6 +13,9 @@
     <a href="https://packagist.org/packages/cdebattista/laravel-permission">
         <img src="https://img.shields.io/packagist/l/cdebattista/laravel-permission" alt="License">
     </a>
+    <a href="https://packagist.org/packages/cdebattista/laravel-permission">
+        <img src="https://img.shields.io/codacy/grade/1fe9209ef4fa4d238a26336b9bef605e" alt="License">
+    </a>
 </p>
 
 <img src="https://github.com/cdebattista/laravel-permission/raw/master/.github/img/permissions.png">
